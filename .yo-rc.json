@@ -1,0 +1,30 @@
+{
+ 	"generator-spring": {
+ 		"serviceName": "cancel-trx",
+ 		"groupId": "com.hcl.adc.services",
+ 		"artifactId": "cancel-trx",
+ 		"packaging": "war",
+ 		"springBootVersion": "2.4.4",
+ 		"basePackageStructure": "com.hcl.springboot.canceltrx",
+ 		"mavenProfiles": [
+ 			"dev",
+ 			"test"
+ 		],
+ 		"enableEureka": false,
+ 		"enableDropwizardMetrics": true,
+ 		"enableSpringSecurity": false,
+ 		"enableSpringCloudConfig": false,
+ 		"enableELK": true,
+ 		"deploymentOptions": [
+ 			"spring-boot",
+ 			"docker",
+ 			"kubernetes"
+ 		],
+ 		"applicationPort": "8080",
+ 		"buildTool": "maven",
+ 		"k8sNamespace": "default",
+ 		"dockerRegistryProject": "generated-apps",
+ 		"dockerRegistryLogicalName": "docker-registry",
+ 		"dockerRegistryTagname": "dna9.hclets.com:18443"
+ 	}
+ }

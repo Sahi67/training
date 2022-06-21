@@ -1,0 +1,5 @@
+# This configuration is to create a new namespace which is a one-time activity. Hence this configuration has been provided as a sample. Please uncomment to create a new namespace.
+#apiVersion: v1
+#kind: Namespace
+#metadata:
+#  name: <Name space to be cerated>
